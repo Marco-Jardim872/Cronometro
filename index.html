@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap" rel="stylesheet">
+
+    <title>Cronômetro</title>
+</head>
+<body>
+    <div id="titulo"></div>
+    <div id="fundo">
+    
+        <div class="principal">
+            
+            <div class="relogio">
+                <div id="hora">00</div>
+                <div id="p1">:</div>
+                <div id="min">00</div>
+                <div id="p2">:</div>
+                <div id="seg">00</div>
+            </div>
+            <div class="botoes">
+                <button onclick="iniciar()" id="iniciar" >Iniciar</button>
+                <button onclick="pausar()" id="pausar">Pausar</button>
+                <button onclick="parar()" id="parar">Parar</button>
+            </div>
+        
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
